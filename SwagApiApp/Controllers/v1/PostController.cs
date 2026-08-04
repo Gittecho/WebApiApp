@@ -45,7 +45,7 @@ namespace SwagApiApp.Controllers.v1
             return Ok(post);
         }
 
-        [HttpPut(ApiRoute.Posts.Delete)]
+        [HttpDelete(ApiRoute.Posts.Delete)]
         public async Task<IActionResult> Delete([FromRoute] Guid postId)
         {
             var status = await _postservices.DeletePostByIdAsync(postId);
