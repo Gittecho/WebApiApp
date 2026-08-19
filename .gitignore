@@ -1,3 +1,45 @@
 /.vs
 /SwagApiApp/bin/Debug/net8.0
 /SwagApiApp/obj
+
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# ASP.NET Core / .NET
+appsettings.Development.json
+appsettings.*.Development.json
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Publish output
+publish/
+published/
+
+# User-specific project files
+*.csproj.user
+*.vbproj.user
+*.dbmdl
